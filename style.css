@@ -1,0 +1,142 @@
+*{
+    font-family: Helvetica;
+   
+    color: seashell;
+    opacity: 0.9;
+    background-color: black;
+}
+
+body{
+    margin:0;
+}
+
+.header{
+    top:0;
+    height: 69px;
+    width:100%;
+    position: sticky;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    z-index: 99;
+}
+.header-logo{
+    height:50px;
+}
+.header-right{
+    flex:1;
+}
+/*Menu*/
+.menu{
+    font-size: 22px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    word-break: keep-all;
+    
+}
+.menu>li{
+    margin:20px;
+    text-decoration: underline;
+    overflow: hidden;
+}
+
+/*Our Mission*/
+.our-mission{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:1200px;
+    height: 700px;
+    background-image: url('./img/img-mission-background.jpg');
+}
+
+.our-mission h2{
+    text-align: center;
+    width:100%;
+}
+
+.our-mission h4{
+    text-align: center;
+}
+
+
+/*tea of the month*/
+.tea-of-the-month{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 20px auto;
+    min-height: 300px;
+    text-align: center;
+    
+}
+
+.tea-of-the-month-grid{
+    width:100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-around;
+}
+.tea-of-the-month-item{
+    flex: 0 1 33%;
+}
+.tea-of-the-month-item img{
+    width:300px;
+    height:200px;
+    margin-bottom: 10px;
+}
+
+/*Locations*/
+.locations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height:500px;
+    width:1200px;
+    background-image: url('./img/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.locations h2{
+    background-color: revert;
+    margin-bottom: 15px;
+}
+
+.locations-inner{
+    background: none;
+    display: flex;
+    gap: 40px;
+    
+}
+
+.location{
+    width: 300px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Contacts*/
+.contacts{
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Disclaimer*/
+.disclaimer{
+    margin-left: 20px;
+}
